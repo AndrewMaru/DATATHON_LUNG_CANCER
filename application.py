@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 
-with open('model.pkl', 'rb') as file:
+with open('./model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 st.title('🫁 Lung Cancer Diagnosis')
