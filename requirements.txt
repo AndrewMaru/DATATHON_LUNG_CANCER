@@ -8,4 +8,3 @@ seaborn
 joblib
 streamlit
 streamlit-js-eval
-optuna
