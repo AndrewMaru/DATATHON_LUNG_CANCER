@@ -1,9 +1,8 @@
 import streamlit as st
 import pandas as pd
-import pickle
+import joblib
 
-with open('./model.pkl', 'rb') as file:
-    model = pickle.load(file)
+joblib.dump(model, 'model.pkl')
 
 st.title('🫁 Lung Cancer Diagnosis')
 st.write("Please fill out the following information to assess the likelihood of lung cancer.")
