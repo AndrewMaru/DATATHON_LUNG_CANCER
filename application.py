@@ -7,6 +7,7 @@ model = joblib.load('model.pkl')
 st.title('🫁 Lung Cancer Diagnosis')
 st.write("Please fill out the following information to assess the likelihood of lung cancer.")
 
+gender = st.selectbox('Gender', ['Male', 'Female'])
 age = st.number_input('Age', max_value=120, value=0)
 smoking = st.selectbox('Smoking', ['Yes', 'No'])
 yellow_fingers = st.selectbox('Yellow Fingers', ['Yes', 'No'])
