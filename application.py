@@ -27,6 +27,7 @@ def binary_encode(value):
     return 1 if value == 'Yes' else 0
 
 data = pd.DataFrame([[
+    gender,
     age,
     binary_encode(smoking),
     binary_encode(yellow_fingers),
