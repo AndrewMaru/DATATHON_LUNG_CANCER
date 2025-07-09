@@ -8,4 +8,3 @@ matplotlib
 seaborn
 joblib
 streamlit
-streamlit-js-eval
