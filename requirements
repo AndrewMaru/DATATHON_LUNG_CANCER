@@ -1,1 +1,4 @@
-joblib>=1.3.0  # or whatever version you prefer
+streamlit
+pandas
+joblib
+scikit-learn
